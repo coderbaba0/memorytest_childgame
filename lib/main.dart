@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Memorytestgame by flutterfever.com',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.orange,
       ),
       home: Home(),
     );
