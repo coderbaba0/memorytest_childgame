@@ -38,6 +38,7 @@ class _splashState extends State<splash> {
   @override
   void initState() {
     // ignore: todo
+    //k
     // TODO: implement initState
     super.initState();
 
