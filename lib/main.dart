@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
     myPairs.shuffle();
     gridViewTiles = myPairs;
     Future.delayed(const Duration(seconds: 5), () {
-// Here you can write your cod
+// Here you can write your code
       setState(() {
 
         questionPairs = getQuestionPairs();
