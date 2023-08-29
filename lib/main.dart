@@ -71,6 +71,15 @@ class _HomeState extends State<Home> {
                     style: TextStyle(
                         fontSize: 20, fontWeight: FontWeight.w300),
                   ),
+
+
+
+
+
+
+
+
+
                   Divider(
                     color: Colors.white,
                     thickness: 2,
