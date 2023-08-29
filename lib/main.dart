@@ -38,7 +38,6 @@ class _HomeState extends State<Home> {
     Future.delayed(const Duration(seconds: 5), () {
 // Here you can write your code
       setState(() {
-
         questionPairs = getQuestionPairs();
         gridViewTiles = questionPairs;
         selected = false;
@@ -71,14 +70,6 @@ class _HomeState extends State<Home> {
                     style: TextStyle(
                         fontSize: 20, fontWeight: FontWeight.w300),
                   ),
-
-
-
-
-
-
-
-
 
                   Divider(
                     color: Colors.white,
@@ -158,9 +149,6 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
-
-
 class Tile extends StatefulWidget {
   String ?imagePathUrl;
   int ?tileIndex;
@@ -171,7 +159,6 @@ class Tile extends StatefulWidget {
   @override
   _TileState createState() => _TileState();
 }
-
 class _TileState extends State<Tile> {
   @override
   Widget build(BuildContext context) {
@@ -227,7 +214,6 @@ class _TileState extends State<Tile> {
               selectedTile = myPairs[widget.tileIndex!].getImageAssetPath()!;
               selectedIndex = widget.tileIndex;
             });
-
             print(selectedTile);
             print(selectedIndex);
           }
